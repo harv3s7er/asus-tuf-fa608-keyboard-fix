@@ -24,11 +24,10 @@ sudo apt install -y build-essential git libusb-1.0-0-dev libudev-dev
 ### 2. Install hidapitester
 Clone and compile the lightweight hardware utility:
 ```bash
-git clone https://github.com
+git clone https://github.com/libusb/hidapi
+git clone https://github.com/todbot/hidapitester
 cd hidapitester
 make
-sudo cp hidapitester /usr/local/bin/
-cd ..
 ```
 
 ### 3. Create the Master Controller Script
